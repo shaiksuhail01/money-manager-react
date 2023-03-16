@@ -1,0 +1,45 @@
+.deleteButton {
+  background-color: transparent;
+  border-width: 0px;
+  border-radius: 0px;
+  margin-top: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.transactionItemContainer {
+  border-color: #cbd5e1;
+  border-width: 1px;
+  border-style: solid;
+  padding-top: 5px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+.transactionStyle {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+}
+.deleteImage {
+  width: 25px;
+  padding-left: 6px;
+}
+.amountPad {
+  margin-left: 31px;
+}
+.typePad {
+  margin-left: 18px;
+}
+@media screen and (min-width: 768px) {
+  .amountPad {
+    margin-left: 0px;
+  }
+  .typePad {
+    margin-left: 0px;
+  }
+}

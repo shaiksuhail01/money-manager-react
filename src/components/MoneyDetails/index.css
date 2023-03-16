@@ -1,0 +1,77 @@
+.balanceContainer {
+  background-color: #ecfccb;
+  border-radius: 12px;
+  border-width: 1px;
+  border-color: #84cc16;
+  border-style: solid;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display: flex;
+  margin-bottom: 17px;
+}
+.moneyDetailsImages {
+  width: 68px;
+}
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  margin-top: 10px;
+}
+.detailName {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 11px;
+}
+.detailMoney {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+}
+.incomeContainer {
+  background-color: #cffafe;
+  border-radius: 12px;
+  border-width: 1px;
+  border-color: #06b6d4;
+  border-style: solid;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display: flex;
+  margin-bottom: 17px;
+}
+.expensesContainer {
+  background-color: #ede9fe;
+  border-radius: 12px;
+  border-width: 1px;
+  border-color: #7c3aed;
+  border-style: solid;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display: flex;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .balanceContainer {
+    width: 270px;
+    margin-right: 35px;
+  }
+  .incomeContainer {
+    width: 270px;
+    margin-right: 35px;
+  }
+  .expensesContainer {
+    width: 270px;
+    margin-bottom: 17px;
+  }
+}
